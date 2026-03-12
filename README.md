@@ -1,14 +1,10 @@
 # EVE - Elemental Variational Expanse (Variational Distributional Neuron)
-Code companion for the arXiv paper: **Variational Distributional Neuron**
 
-This repository will host the official code accompanying the arXiv paper introducing EVE (Elemental Variational Expanse): a variational distributional neuron, i.e. a compute unit whose internal state is a distribution rather than a scalar.
+Code companion to the arXiv paper: **Variational Distributional Neuron**  
+[https://doi.org/10.48550/arXiv.2602.18250](https://doi.org/10.48550/arXiv.2602.18250)
 
-## Availability
+This repository gathers models of variational distributional neurons (**EVE: Elemental Variational Expanse**) along with explanations and related material.
 
-The code will be made publicly available on **March 21**.
+For more information, to discuss the topic, or if you are working on related questions, feel free to contact me at:
 
-If you need access before then, please email me and I can share a **raw / research snapshot** of the code.
-
-## Contact
-
-Email: **yves [at] ruffenach [dot] net**
+**Email:** yves [at] ruffenach [dot] net

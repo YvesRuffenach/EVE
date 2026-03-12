@@ -1,4 +1,4 @@
-# EC-1 - fr
+# ECL-1 - fr
   
 Ce notebook met en œuvre un pipeline de **prévision probabiliste** construit autour d’un **neurone variationnel**. Le flux général est simple : une fenêtre courante `x_cur` et une fenêtre passée `x_prev` sont encodées, chaque neurone produit une distribution latente `q(z|h)=N(\mu,\sigma^2)`, puis une tête de prédiction transforme cet état latent en prévision sur l’horizon. Une variante **déterministe** (`det`) conserve presque la même interface, mais sans variable latente.  
   

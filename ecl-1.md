@@ -1,4 +1,4 @@
-# EC-1
+# ECL-1
   
 This notebook implements a **probabilistic forecasting** pipeline built around a **variational neuron**. The overall flow is straightforward: a current window `x_cur` and a previous window `x_prev` are encoded, each neuron produces a latent distribution `q(z|h)=N(\mu,\sigma^2)`, and a prediction head turns the latent state into a forecast over the horizon. A **deterministic** variant (`det`) keeps almost the same interface, but without a latent variable.  
   
